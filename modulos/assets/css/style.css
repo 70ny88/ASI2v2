@@ -1,0 +1,96 @@
+/*!
+ * Start Bootstrap - 3 Col Portfolio HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+ 
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,700); 
+
+body {
+	font-family: 'Open Sans', sans-serif;
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+	background:#fafafa;
+}
+
+.navbar-inverse {
+	border-bottom: #2ecc71 solid 5px;
+}
+
+a:link {text-decoration:none}
+
+.portfolio-item {
+    margin-bottom: 25px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.item { background:#336e7b; height:170px; padding-bottom:30%; transition:.3s all ease-in-out; position:relative; }
+
+.item ul { display:block; margin:0; opacity:0; transition:all .3s ease-in-out; padding:5px 0 0 0;}
+
+.item ul li { font-size:18px; list-style:none; margin:0 0 5px 0; padding:0; display:block; text-align:justify;}
+
+.item ul li a { color:#FFF; text-decoration:none; transition:all .3s ease-in-out; padding:3px 8px; display:block}
+
+.item ul li a:hover { background:#2ecc71;}
+
+.texto { color:#fff; position:absolute; bottom:5px; right:5px; font-size:22px; transition:all .3s ease-in-out;}
+
+/*ICONOS*/
+.user { background:url(../images/user.png) no-repeat; width:41px;height:43px; position:absolute; top:10px; left:10px; transition:all .3s ease-in-out;}
+.report { background:url(../images/report.png) no-repeat; width:48px;height:48px; position:absolute; top:10px; left:10px; transition:all .3s ease-in-out;}
+.transporte { background:url(../images/transporte.png) no-repeat; width:64px;height:56px; position:absolute; top:10px; left:10px; transition:all .3s ease-in-out;}
+.inventario { background:url(../images/inventario.png) no-repeat; width:36px;height:36px; position:absolute; top:10px; left:10px; transition:all .3s ease-in-out;}
+.carga { background:url(../images/carga.png) no-repeat; width:47px;height:49px; position:absolute; top:10px; left:10px; transition:all .3s ease-in-out;}
+
+.historial { background:url(../images/historial.png) no-repeat; width:48px;height:48px; position:absolute; top:10px; left:10px; transition:all .3s ease-in-out;}
+
+.envio { background:url(../images/envio.png) no-repeat; width:48px;height:48px; position:absolute; top:10px; left:10px; transition:all .3s ease-in-out;}
+
+.dollar { background:url(../images/dollar.png) no-repeat; width:48px;height:48px; position:absolute; top:10px; left:10px; transition:all .3s ease-in-out;}
+
+.buy { background:url(../images/buy.png) no-repeat; width:48px;height:48px; position:absolute; top:10px; left:10px; transition:all .3s ease-in-out;}
+
+.logout { background:url(../images/logout.png) no-repeat; width:36px;height:36px; position:absolute; top:10px; left:10px; transition:all .3s ease-in-out;}
+
+.item:hover, .botones-opciones li:hover { box-shadow:0 0 5px rgba(0,0,0,.75); -webkit-box-shadow:0 0 5px rgba(0,0,0,.75); -moz-box-shadow:0 0 5px rgba(0,0,0,.75); -o-box-shadow:0 0 5px rgba(0,0,0,.75);}
+
+.item:hover ul{ opacity:1;}
+
+.item:hover .user, .item:hover .report, .item:hover .transporte, .item:hover .inventario, .item:hover .carga, .item:hover .texto { opacity:0;}
+
+.botones-opciones {overflow:hidden}
+
+.botones-opciones li{background:#336e7b; display:block; float:right; margin:0 0 20px 10px; padding:10px; transition:all .3s ease-in-out}
+
+.botones-opciones li:hover {background:#2ecc71; display:block}
+
+.botones-opciones li a{color:#fff; display:block}
+
+.botones-opciones img{float:left; margin-right:10px}
+
+.title {text-transform:uppercase; text-align:center}
+
+.table-toolbar {float:left}
+
+#user-login{float:right; margin:10px 0 0 0}
+
+#user-login img{margin-right:10px}
+
+#user-login ul{display:block}
+
+#user-login ul li{color:#fff; list-style:none}
+
+.orange {background:#F89406}
+.pomegranate {background:#F22613}
+.blue {background:#22A7F0}
+.morado {background:#9B59B6}
+.green {background:#2ecc71}
+.dark-gray {background:#336e7b}
+
+.item.orange:hover, .item.orange:hover .transporte, .item.orange:hover .texto, .item.pomegranate:hover, .item.pomegranate:hover .transporte, .item.pomegranate:hover .report, .item.pomegranate:hover .texto, .item.blue:hover, .item.blue:hover .carga, .item.blue:hover .texto, .item.morado:hover .texto, .item.green:hover, .item.green:hover .inventario, .item.green:hover .transporte, .item.green:hover .texto, .item.dark-gray:hover .texto, .item.sesion.logout, .item.sesion .texto{ opacity:1;}
+
+.search { background:url(../images/search.png) no-repeat; width:48px;height:48px; position:absolute; top:10px; left:10px; transition:all .3s ease-in-out;}
+
